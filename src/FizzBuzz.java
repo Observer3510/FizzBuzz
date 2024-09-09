@@ -3,7 +3,7 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) { // like the main part of python, or just a regular python file
+    public static void main() { // like the main part of python, or just a regular python file
 
         for (int i = 1; i < 100; i++) { // i++ is similar to i += 1 in Python
 
@@ -19,7 +19,7 @@ class FizzBuzz {
         }
     }
 
-    private static void doFizzBuzz(int i) {
+    public static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
